@@ -1,0 +1,16 @@
+{
+    "envName": "dev",
+    "web": {
+        "baseURL": "https://dev.example.com",
+        "headless": false,
+        "retries": 0
+    },
+    "api": {
+        "baseURL": "https://dev-api.example.com/v1",
+        "retries": 0
+    },
+    "auth": {
+        "username": "dev_user",
+        "password": "dev_password"
+    }
+}

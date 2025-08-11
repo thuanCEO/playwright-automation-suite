@@ -1,0 +1,17 @@
+{
+    "uat_vi": {
+        "usernameInput": "//div//input[@name='username']",
+        "passwordInput": "//div//input[@name='password']",
+        "loginButton": "//div//button[@type='submit']"
+    },
+    "dev_en": {
+        "usernameInput": "//div//input[@name='username']",
+        "passwordInput": "//div//input[@name='password']",
+        "loginButton": "//div//button[@type='submit']"
+    },
+    "prod_vi": {
+        "usernameInput": "//div//input[@name='username']",
+        "passwordInput": "//div//input[@name='password']",
+        "loginButton": "//div//button[@type='submit']"
+    }
+}
