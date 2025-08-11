@@ -13,7 +13,7 @@ export class GetLocator {
     public static getLocator(pageName: string, key: string): string {
         const envLang = `${PlatForm.environment}_${PlatForm.language}`;
         const fileName = `${pageName}.json`;
-        const startDir = path.resolve(__dirname, '../test-ui/locators');
+        const startDir = path.resolve(__dirname, '../locators');
         const filePath = this.findFileRecursive(startDir, fileName);
 
         if (!filePath) {

@@ -1,5 +1,5 @@
 import { Page } from '@playwright/test';
-import { Login } from '../../locators/TestArchitect/Login.locator';
+import { Login } from '@locators/TestArchitect/Login.locator';
 
 export class LoginPage {
   private page: Page;

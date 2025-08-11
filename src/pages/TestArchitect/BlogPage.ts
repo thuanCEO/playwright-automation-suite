@@ -1,5 +1,5 @@
 import { expect, Page } from '@playwright/test';
-import { BlogLocators, BlogDetailLocators } from 'src/locators/TestArchitect/Blog.locator';
+import { BlogLocators, BlogDetailLocators } from '@locators/TestArchitect/Blog.locator';
 
 export class BlogPage {
   private page: Page;

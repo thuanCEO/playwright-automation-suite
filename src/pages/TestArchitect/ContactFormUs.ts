@@ -1,6 +1,6 @@
 import { expect, Page } from '@playwright/test';
-import { randomChar } from '@utils/RandomData';
-import { ContactFormUS } from 'src/locators/TestArchitect/ContactUs.locator';
+import { RandomChar } from '@utils/RandomData';
+import { ContactFormUS } from '@locators/TestArchitect/ContactUs.locator';
 import { SaveScreenshot } from '@utils/SaveScreenshot';
 
 export class ContactFormUs {
@@ -63,10 +63,10 @@ export class ContactFormUs {
     }
 
     async fillContactUsRandomDataInput(): Promise<void> {
-        await this.fillYourNameInput(randomChar(10));
+        await this.fillYourNameInput(RandomChar(10));
         await this.fillYourEmailInput(`user${Date.now()}@example.com`);
-        await this.fillSubjectInput(randomChar(10));
-        await this.fillYourMessageInput(randomChar(30));
+        await this.fillSubjectInput(RandomChar(10));
+        await this.fillYourMessageInput(RandomChar(30));
         console.log('Contact Us form filled with random data', this.fillContactUsRandomDataInput.name);
         await SaveScreenshot(this.page);
     }

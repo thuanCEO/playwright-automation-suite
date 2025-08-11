@@ -1,6 +1,6 @@
 import { expect, Page } from '@playwright/test';
-import { ShopProductsPage } from 'src/locators/TestArchitect/Shop.locator';
-import { randomChar } from '@utils/RandomData';
+import { ShopProductsPage } from '@locators/TestArchitect/Shop.locator';
+import { RandomChar } from '@utils/RandomData';
 import { SaveScreenshot } from '@utils/SaveScreenshot';
 
 export class ShopPage {
@@ -132,8 +132,8 @@ export class ShopPage {
   async fillReviewRandomDataInput(): Promise<void> {
     await this.clickProductReviewTab();
     await this.clickYourProductRating();
-    await this.fillYourProductReviewInput(randomChar(30));
-    // await this.fillYourNameReviewInput(randomChar(10));
+    await this.fillYourProductReviewInput(RandomChar(30));
+    // await this.fillYourNameReviewInput(RandomChar(10));
     // await this.fillYourEmailReviewInput(`user${Date.now()}@example.com`);
     // await this.clickYourSaveReview();
     await SaveScreenshot(this.page);

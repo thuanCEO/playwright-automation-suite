@@ -3,7 +3,7 @@ import { HttpStatusHelper } from '@helpers/HttpStatusHelper';
 import { TokenManager } from '@api/core/TokenManager';
 import { IHttpRequestOptions } from '@interfaces/IHttpRequestOptions';
 import { ContentTypeEnum } from '@enums/ContentTypeEnum'
-
+import { BASE_URL } from "../../../env.config";
 export class HttpClient {
     private static context: APIRequestContext;
 
@@ -12,9 +12,9 @@ export class HttpClient {
      * @param baseURL The base URL for all requests (e.g. "https://api.example.com")
      * @param headers Optional default headers for every request
      */
-    static async init(baseURL: string, headers: Record<string, string> = {}) {
+    static async init(headers: Record<string, string> = {}) {
         this.context = await request.newContext({
-            baseURL,
+            baseURL: BASE_URL,
             extraHTTPHeaders: headers,
         });
     }
