@@ -1,0 +1,18 @@
+2025-08-11T08:20:27.021Z [INFO] ✏️ Updating user ID 53
+2025-08-11T08:20:27.021Z [INFO] [UserService] ✏️ Updating user ID 53 with data: {"userName":"Updated Thuan","userAddress":"Ha Noi"}
+[REQUEST] PUT /api/v2/user/53
+Headers: {}
+Payload: {
+  "userName": "Updated Thuan",
+  "userAddress": "Ha Noi"
+}
+2025-08-11T08:20:27.303Z [DEBUG] ✅ Updated user: {
+  "userName": "Updated Thuan",
+  "userAddress": "Ha Noi",
+  "userPhone": "1763618195",
+  "userEmail": "user1754900426441@example.com",
+  "userSubject": {},
+  "isActive": true,
+  "userBir": 1753237995,
+  "userId": "53"
+}

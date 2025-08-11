@@ -1,0 +1,472 @@
+2025-08-11T08:20:25.467Z [INFO] 🔍 Starting test: Get all users with query params
+2025-08-11T08:20:25.471Z [DEBUG] ➡ Sending request with query params: {"page":1,"limit":5}
+2025-08-11T08:20:25.471Z [INFO] [UserService] 📥 Fetching all users
+[REQUEST] GET /api/v2/user
+Headers: {}
+2025-08-11T08:20:26.424Z [INFO] ✅ Received response with status: 200
+2025-08-11T08:20:26.426Z [DEBUG] 📦 Response JSON: [
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "2"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "3"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "4"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "5"
+  },
+  {
+    "userName": "Updated Name",
+    "userAddress": "HCM",
+    "userPhone": null,
+    "userEmail": null,
+    "userSubject": null,
+    "isActive": false,
+    "userBir": 0,
+    "userId": "6",
+    "active": false
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "7"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "8"
+  },
+  {
+    "userName": "Updated Name",
+    "userAddress": "HCM",
+    "userPhone": null,
+    "userEmail": null,
+    "userSubject": null,
+    "isActive": false,
+    "userBir": 0,
+    "userId": "9",
+    "active": false
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "11"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "12"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "13"
+  },
+  {
+    "userName": "Updated Name",
+    "userAddress": "HCM",
+    "userPhone": null,
+    "userEmail": null,
+    "userSubject": null,
+    "isActive": false,
+    "userBir": 0,
+    "userId": "14",
+    "active": false
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "15"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "16"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "17"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "18"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "19"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "20"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "21"
+  },
+  {
+    "userName": "Updated Name",
+    "userAddress": "HCM",
+    "userPhone": null,
+    "userEmail": null,
+    "userSubject": null,
+    "isActive": false,
+    "userBir": 0,
+    "userId": "22",
+    "active": false
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "23"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "24"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "25"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "26"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "27"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "28"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "30"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "31"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "32"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "35"
+  },
+  {
+    "userName": "Updated Name",
+    "userAddress": "HCM",
+    "userPhone": null,
+    "userEmail": null,
+    "userSubject": null,
+    "isActive": false,
+    "userBir": 0,
+    "userId": "36",
+    "active": false
+  },
+  {
+    "userName": "Updated Name",
+    "userAddress": "HCM",
+    "userPhone": null,
+    "userEmail": null,
+    "userSubject": null,
+    "isActive": false,
+    "userBir": 0,
+    "userId": "38",
+    "active": false
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "39"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "40"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "41"
+  },
+  {
+    "userName": "Anh Thuan Dz",
+    "userAddress": "HCM",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "43"
+  },
+  {
+    "userName": "Updated Thuan",
+    "userAddress": "Ha Noi",
+    "userPhone": "0333888257",
+    "userEmail": "anhthuandz@gmail.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "44"
+  },
+  {
+    "userName": "Updated Thuan",
+    "userAddress": "Ha Noi",
+    "userPhone": "9643928816",
+    "userEmail": "user1754556510870@example.com",
+    "userSubject": {},
+    "isActive": true,
+    "userBir": 1753237995,
+    "userId": "45"
+  },
+  {
+    "userName": "Do Thuan",
+    "userAddress": "HCM",
+    "userPhone": "0123456789",
+    "userEmail": "dothuan@example.com",
+    "userSubject": null,
+    "isActive": true,
+    "userBir": 1754637849020,
+    "userId": "46",
+    "active": true
+  },
+  {
+    "userName": "Do Thuan",
+    "userAddress": "HCM",
+    "userPhone": "0123456789",
+    "userEmail": "dothuan@example.com",
+    "userSubject": null,
+    "isActive": true,
+    "userBir": 1754638089506,
+    "userId": "47",
+    "active": true
+  },
+  {
+    "userName": "Do Thuan",
+    "userAddress": "HCM",
+    "userPhone": "0123456789",
+    "userEmail": "dothuan@example.com",
+    "userSubject": null,
+    "isActive": true,
+    "userBir": 1754639103612,
+    "userId": "48",
+    "active": true
+  },
+  {
+    "userName": "Do Thuan",
+    "userAddress": "HCM",
+    "userPhone": "0123456789",
+    "userEmail": "dothuan@example.com",
+    "userSubject": null,
+    "isActive": true,
+    "userBir": 1754640109773,
+    "userId": "49",
+    "active": true
+  },
+  {
+    "userName": "Do Thuan",
+    "userAddress": "HCM",
+    "userPhone": "0123456789",
+    "userEmail": "dothuan@example.com",
+    "userSubject": null,
+    "isActive": true,
+    "userBir": 1754640184456,
+    "userId": "50",
+    "active": true
+  },
+  {
+    "userName": "Do Thuan",
+    "userAddress": "HCM",
+    "userPhone": "0123456789",
+    "userEmail": "dothuan@example.com",
+    "userSubject": null,
+    "isActive": true,
+    "userBir": 1754640357029,
+    "userId": "51",
+    "active": true
+  },
+  {
+    "userName": "Do Thuan",
+    "userAddress": "HCM",
+    "userPhone": "0123456789",
+    "userEmail": "dothuan@example.com",
+    "userSubject": null,
+    "isActive": true,
+    "userBir": 1754640552613,
+    "userId": "52",
+    "active": true
+  }
+]
+2025-08-11T08:20:26.427Z [INFO] 👥 Total users received: 45

@@ -1,0 +1,5 @@
+2025-08-11T08:20:27.313Z [INFO] 🗑️ Deleting user ID 53
+2025-08-11T08:20:27.313Z [INFO] [UserService] 🗑️ Deleting user with ID: 53
+[REQUEST] DELETE /api/v2/user/53
+Headers: {}
+2025-08-11T08:20:27.587Z [INFO] ✅ Deleted user 53 successfully
