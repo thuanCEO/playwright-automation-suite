@@ -1,0 +1,416 @@
+# Page snapshot
+
+```yaml
+- paragraph:
+  - text: THIS IS A DEMO STORE FOR TESTING AND TRAINING PURPOSES - NO ORDERS SHALL BE FULFILLED. *** THIS SITE WILL BE RESET DAILY AT 23:00 ***
+  - link "Dismiss":
+    - /url: "#"
+- banner:
+  - text:  Order online or call us (+1800) 000 8808 │  1730 S. Amphlett Blvd. Suite 200, San Mateo, CA
+  - link "user1754900294678":
+    - /url: https://demo.testarchitect.com/my-account/
+    - img
+    - text: user1754900294678
+  - text: │
+  - link "Pinterest":
+    - /url: "#"
+    - img
+  - link "Instagram":
+    - /url: "#"
+    - img
+  - link "Twitter":
+    - /url: "#"
+    - img
+  - link "Facebook":
+    - /url: "#"
+    - img
+  - link:
+    - /url: https://demo.testarchitect.com
+  - group "1 / 5":
+    - img
+    - text: NO ORDERS SHALL BE FULFILLED
+  - group "2 / 5":
+    - img
+    - text: THIS IS THE TESTARCHITECT SAMPLE WEBSITE
+  - group "3 / 5":
+    - img
+    - text: THIS SITE IS USING FOR TRAINING PURPOSE ONLY
+  - group "4 / 5":
+    - img
+    - text: NO ORDERS SHALL BE FULFILLED
+  - group "5 / 5":
+    - img
+    - text: THIS IS THE TESTARCHITECT SAMPLE WEBSITE
+  - search:
+    - combobox:
+      - option "All categories" [selected]
+      - option "3D Glasses/ Virtual Reality Glasses"
+      - option "Accessory Bundles"
+      - option "Acoustic Components"
+      - option "Acoustic Components"
+      - option "Active Components"
+      - option "Active Components"
+      - option "Air-conditioning Installation"
+      - option "Antennas for Communications"
+      - option "Antennas for Communications"
+      - option "Audio"
+      - option "Automobiles & Motorcycles"
+      - option "Barcode Printer"
+      - option "Batteries & Accessories"
+      - option "Battery Charger Cases"
+      - option "Battery Charger Cases"
+      - option "Camera & Photo"
+      - option "Camera & Photo Accessories"
+      - option "Capacitors"
+      - option "Capacitors"
+      - option "Car Camera"
+      - option "Car Charger"
+      - option "Car DVD"
+      - option "Car DVRs"
+      - option "Car Electrical Appliances"
+      - option "Car Electronics"
+      - option "Car Video Players"
+      - option "Communication Equipment"
+      - option "Communication Equipment"
+      - option "Computer & Office"
+      - option "Consumer Electronics"
+      - option "Consumer Electronics"
+      - option "Cooling System"
+      - option "Creative Watches"
+      - option "Creative Watches"
+      - option "Digital Watches"
+      - option "Dual Display Watches"
+      - option "eBook Reader"
+      - option "Electrical Ceramics"
+      - option "Electrical Ceramics"
+      - option "Electrical Contacts and Contact Materials"
+      - option "Electrical Contacts and Contact Materials"
+      - option "Electronic Accessories & Supplies"
+      - option "Electronic Components & Supplies"
+      - option "Elevators & Elevator Parts"
+      - option "Elevators & Elevator Parts"
+      - option "Engine"
+      - option "Escalators & Escalator Parts"
+      - option "Escalators & Escalator Parts"
+      - option "Exhaust & Exhaust Systems"
+      - option "Fax machines & Copiers"
+      - option "Fiber Optic Equipments"
+      - option "Fiber Optic Equipments"
+      - option "Fixed Wireless Terminals"
+      - option "Fixed Wireless Terminals"
+      - option "GPS & Accessories"
+      - option "Graph Plotter"
+      - option "Insulation Materials & Elements"
+      - option "Insulation Materials & Elements"
+      - option "Integrated Circuits"
+      - option "Keypads & Keyboards"
+      - option "Keypads & Keyboards"
+      - option "Lapdesks"
+      - option "Laptop Accessories"
+      - option "Laptop Batteries"
+      - option "Marine GPS"
+      - option "Mechanical Watches"
+      - option "Memory Card"
+      - option "Men’s Watches"
+      - option "Men’s Watches"
+      - option "Mobile Phone Accessories"
+      - option "Mobile Phone Batteries"
+      - option "Mobile Phone Cables"
+      - option "Mobile Phone Part"
+      - option "Mobile Phone Touch Panel"
+      - option "Motorcycle GPS"
+      - option "MP3 / MP4 Player Accessories"
+      - option "MP4 Player"
+      - option "Office Electronic"
+      - option "Optical Drives"
+      - option "Other Electronic Accessories"
+      - option "Passive Components"
+      - option "Passive Components"
+      - option "PCB & PCBA"
+      - option "PCB & PCBA"
+      - option "Phone Bags & Cases"
+      - option "Phones & Telecommunications"
+      - option "Phones & Telecommunications"
+      - option "Pocket Watch Chains"
+      - option "Pocket Watch Chains"
+      - option "Portable Audio & Video"
+      - option "Portable Audio & Video"
+      - option "Portable TV"
+      - option "Potentiometers"
+      - option "Potentiometers"
+      - option "Printers"
+      - option "Processors"
+      - option "Projectors & Accessories"
+      - option "Quartz Watches"
+      - option "Radar Detectors"
+      - option "Radiators & Parts"
+      - option "Replacement Parts"
+      - option "Resistors"
+      - option "Resistors"
+      - option "Scanners"
+      - option "Screen Protectors"
+      - option "Sensors"
+      - option "SIM Card & Tools"
+      - option "Smart Accessories"
+      - option "Smart Electronic Devices"
+      - option "Smart Glasses"
+      - option "Smart Home Controls"
+      - option "Smart Remote Control"
+      - option "Smart Watches"
+      - option "Smart Watches"
+      - option "Speakers"
+      - option "Sport & Handheld GPS"
+      - option "Tablet Accessories"
+      - option "Telecom Parts"
+      - option "Telecom Parts"
+      - option "Telecommunication Tower"
+      - option "Telecommunication Tower"
+      - option "Vehicle GPS"
+      - option "Walkie Talkie"
+      - option "Walkie Talkie"
+      - option "Watch Accessories"
+      - option "Watch Batteries"
+      - option "Watch Batteries"
+      - option "Watchbands"
+      - option "Watchbands"
+      - option "Watches"
+      - option "Wearable Devices"
+      - option "Women’s Sports Watches"
+      - option "Women’s Watches"
+      - option "Women’s Watches"
+      - option "Wood Series"
+      - option "カーエレクトロニクス"
+      - option "その他の電子アクセサリー"
+      - option "その他の電子アクセサリー"
+      - option "携帯電話アクセサリー"
+      - option "電子部品および消耗品"
+    - text: Search input
+    - textbox "Search input"
+    - button:
+      - img
+  - link "0 Wishlist":
+    - /url: https://demo.testarchitect.com/wishlist/
+    - img
+    - text: 0 Wishlist
+  - text: │
+  - link "0 $0.00":
+    - /url: https://demo.testarchitect.com/cart/
+    - img
+    - text: 0 $0.00
+  - text:  All departments 
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: https://demo.testarchitect.com/
+    - listitem:
+      - link "About Us":
+        - /url: https://demo.testarchitect.com/about-us/
+    - listitem:
+      - link "Shop":
+        - /url: https://demo.testarchitect.com/shop/
+    - listitem:
+      - link " Offers":
+        - /url: https://demo.testarchitect.com/product-category/electronic-components-supplies/
+    - listitem:
+      - link "Blog":
+        - /url: https://demo.testarchitect.com/blog/
+    - listitem:
+      - link "Contact Us":
+        - /url: https://demo.testarchitect.com/contact/
+- link "Home":
+  - /url: https://demo.testarchitect.com
+- text: 
+- link "Blog":
+  - /url: https://demo.testarchitect.com/blog/
+- text: 
+- link "Uncategorized":
+  - /url: https://demo.testarchitect.com/category/uncategorized/
+- 'heading "Protected: Test here" [level=1]'
+- article:
+  - 'heading "Protected: Test here" [level=2]'
+  - time:  November 8, 2024
+  - text: / Posted by
+  - link "John Smith":
+    - /url: https://demo.testarchitect.com/author/demo/
+  - text: /  925
+  - paragraph: "This content is password protected. To view it please enter your password below:"
+  - paragraph:
+    - text: "Password:"
+    - textbox "Password:"
+    - img
+    - button "Enter"
+  - list:
+    - listitem:
+      - link "ภ":
+        - /url: https://twitter.com/share?url=https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-9/&text=Protected%3A%20Test%20here
+    - listitem:
+      - link "ฐ":
+        - /url: https://www.facebook.com/sharer.php?u=https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-9/&images=
+    - listitem:
+      - link "ย":
+        - /url: https://vk.com/share.php?url=https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-9/&image=?&title=Protected%3A%20Test%20here
+    - listitem:
+      - link "ถ":
+        - /url: https://pinterest.com/pin/create/button/?url=https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-9/&media=&description=Protected%3A%20Test%20here
+    - listitem:
+      - link "":
+        - /url: mailto:enteryour@addresshere.com?subject=Protected%3A%20Test%20here&body=Check%20this%20out:%20https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-9/
+    - listitem:
+      - link "ท":
+        - /url: https://www.linkedin.com/shareArticle?mini=true&url=https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-9/&title=
+    - listitem:
+      - link "ล":
+        - /url: https://api.whatsapp.com/send?text=https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-9/
+    - listitem:
+      - link "ฤ":
+        - /url: https://web.skype.com/share?url=https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-9/
+  - heading "About author" [level=3]
+  - link:
+    - /url: "#"
+  - heading "John Smith" [level=4]
+  - link "Other posts by John Smith":
+    - /url: https://demo.testarchitect.com/author/demo/
+  - heading "Related posts" [level=3]
+  - group "1 / 5":
+    - article:
+      - 'heading "Protected: Test here" [level=2]':
+        - 'link "Protected: Test here"':
+          - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-11/
+      - time:  September 30, 2024
+      - text: There is no excerpt because this is a protected post.
+      - link "Continue reading ":
+        - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-11/
+  - group "2 / 5":
+    - article:
+      - heading "Test here" [level=2]:
+        - link "Test here":
+          - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-27/
+      - time:  September 30, 2024
+      - link " 0":
+        - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-27/#respond
+      - text: This post is being created without authentication.
+      - link "Continue reading ":
+        - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-27/
+  - group "3 / 5":
+    - article:
+      - 'heading "Protected: Test here" [level=2]':
+        - 'link "Protected: Test here"':
+          - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-12/
+      - time:  September 30, 2024
+      - text: There is no excerpt because this is a protected post.
+      - link "Continue reading ":
+        - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-12/
+  - group "4 / 5":
+    - article:
+      - 'heading "Protected: Test here" [level=2]':
+        - 'link "Protected: Test here"':
+          - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-28/
+      - time:  September 30, 2024
+      - text: There is no excerpt because this is a protected post.
+      - link "Continue reading ":
+        - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-28/
+  - group "5 / 5":
+    - article:
+      - 'heading "Protected: Test here" [level=2]':
+        - 'link "Protected: Test here"':
+          - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-13/
+      - time:  September 30, 2024
+      - text: There is no excerpt because this is a protected post.
+      - link "Continue reading ":
+        - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-13/
+- paragraph: This post is password protected. Enter the password to view the comments.
+- heading "Categories" [level=4]
+- list:
+  - listitem:
+    - link "Electronics":
+      - /url: https://demo.testarchitect.com/category/electronics/
+  - listitem:
+    - link "General":
+      - /url: https://demo.testarchitect.com/category/general/
+  - listitem:
+    - link "Interactive":
+      - /url: https://demo.testarchitect.com/category/interactive/
+  - listitem:
+    - link "Uncategorized":
+      - /url: https://demo.testarchitect.com/category/uncategorized/
+  - listitem:
+    - link "Work":
+      - /url: https://demo.testarchitect.com/category/work/
+- link "Recent":
+  - /url: "#"
+- link "Popular":
+  - /url: "#"
+- 'heading "Protected: Test here" [level=4]':
+  - 'link "Protected: Test here"':
+    - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-9/
+- text:  November 8, 2024
+- 'heading "Protected: Test here" [level=4]':
+  - 'link "Protected: Test here"':
+    - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-39/
+- text:  September 30, 2024
+- 'heading "Protected: Test here" [level=4]':
+  - 'link "Protected: Test here"':
+    - /url: https://demo.testarchitect.com/fandoms-league-of-legends-esports-wiki-covers-tournaments-teams-players-and-personalities-in-league-of-legends-pages-that-were-modified-between-april-2014-and-june-2016-are-adapted-from-informat-4-38/
+- text:  September 30, 2024
+- heading "Latest Products" [level=4]
+- list:
+  - listitem:
+    - link "DJI Phantom 4 Camera Drone":
+      - /url: https://demo.testarchitect.com/product/dji-phantom-4-camera-drone/
+    - paragraph:
+      - link "DJI Phantom 4 Camera Drone":
+        - /url: https://demo.testarchitect.com/product/dji-phantom-4-camera-drone/
+    - img "Rated 5.00 out of 5": 󩌍󩌍󩌍󩌍󩌍 󩌍󩌍󩌍󩌍󩌍 Rated out of 5
+    - insertion: $1,000.00
+  - listitem:
+    - link "DJI Mavic Pro Camera Drone":
+      - /url: https://demo.testarchitect.com/product/dji-mavic-pro-camera-drone/
+    - paragraph:
+      - link "DJI Mavic Pro Camera Drone":
+        - /url: https://demo.testarchitect.com/product/dji-mavic-pro-camera-drone/
+    - img "Rated 5.00 out of 5": 󩌍󩌍󩌍󩌍󩌍 󩌍󩌍󩌍󩌍󩌍 Rated out of 5
+    - text: $129.00
+  - listitem:
+    - link "ExoLens with Optics by ZEISS":
+      - /url: https://demo.testarchitect.com/product/exolens-with-optics-by-zeiss/
+    - paragraph:
+      - link "ExoLens with Optics by ZEISS":
+        - /url: https://demo.testarchitect.com/product/exolens-with-optics-by-zeiss/
+    - img "Rated 5.00 out of 5": 󩌍󩌍󩌍󩌍󩌍 󩌍󩌍󩌍󩌍󩌍 Rated out of 5
+    - text: $399.00
+- heading "Search" [level=4]
+- search:
+  - textbox "Search..."
+  - button " Search"
+- contentinfo
+- contentinfo:
+  - img "talogoblue"
+  - link "About Us":
+    - /url: /about-us/
+  - link "Shop":
+    - /url: /shop/
+  - link "Offers":
+    - /url: /electronic-components-supplies/
+  - link "Blog":
+    - /url: /blog/
+  - link "Contact Us":
+    - /url: /contact/
+- text: Copyright © 2021 LogiGear Corporation. All rights reserved.
+- img
+- img
+- link "Bose® 35 Wireless Headphones":
+  - /url: https://demo.testarchitect.com/product/bose-quietcomfort-35/
+  - img "Bose® 35 Wireless Headphones"
+- text: 👜 Someone recently bought a
+- link "Bose® 35 Wireless Headphones":
+  - /url: https://demo.testarchitect.com/product/bose-quietcomfort-35/
+- text: 12 minutes ago from Washington D.C., USA 🇺🇸
+- insertion: $1,000.00
+- link "View product ":
+  - /url: https://demo.testarchitect.com/product/bose-quietcomfort-35/
+- text: widescreen
+- dialog "Cookie Notice":
+  - text: We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
+  - link "Ok":
+    - /url: "#"
+```

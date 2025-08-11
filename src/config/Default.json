@@ -20,7 +20,7 @@
         }
     },
     "report": {
-        "allureResultsDir": "./reports/allure-results",
+        "allureResultsDir": "./src/reports/allure-results",
         "htmlReportDir": "./reports/html-report"
     },
     "auth": {

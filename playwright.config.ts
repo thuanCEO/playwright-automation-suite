@@ -1,6 +1,7 @@
 import { defineConfig } from '@playwright/test';
 import { TimeOut } from '@constants/TimeOut';
 import { BrowserEnum, BrowserChannelEnum, BrowserNameEnum } from '@enums/BrowserEnum';
+import path from 'path';
 
 export default defineConfig({
   timeout: TimeOut.XLONG,
@@ -11,7 +12,9 @@ export default defineConfig({
   },
   reporter: [
     ['html', { open: 'always' }],
+    ['allure-playwright', { outputFolder: './src/reports/allure-results' }]
   ],
+  outputDir: './src/reports/test-artifacts',
   name: BrowserNameEnum.CHROMIUM,
   projects: [
     {

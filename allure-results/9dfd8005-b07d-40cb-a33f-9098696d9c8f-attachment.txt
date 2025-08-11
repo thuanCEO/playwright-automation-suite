@@ -1,0 +1,14 @@
+2025-08-11T08:20:26.737Z [INFO] 🔍 Getting user by ID: 53
+2025-08-11T08:20:26.738Z [INFO] [UserService] 🔍 Fetching user by ID: 53
+[REQUEST] GET /api/v2/user/53
+Headers: {}
+2025-08-11T08:20:27.011Z [DEBUG] 📦 User info: {
+  "userName": "Anh Thuan Dz",
+  "userAddress": "OU5b8Pn0Lo3yPWenI26E",
+  "userPhone": "1763618195",
+  "userEmail": "user1754900426441@example.com",
+  "userSubject": {},
+  "isActive": true,
+  "userBir": 1753237995,
+  "userId": "53"
+}
