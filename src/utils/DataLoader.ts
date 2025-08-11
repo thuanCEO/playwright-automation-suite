@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { PlatForm } from '@constants/Platform';
-import { Project } from 'src/resources/Project';
+import { Project } from '@resources/Project';
 
 export class DataLoader {
 
@@ -23,7 +23,7 @@ export class DataLoader {
 
     public static loadFileName(filename: string): any {
         const envLang = `${PlatForm.environment}_${PlatForm.language}`;
-        const fullPath = path.resolve(__dirname, 'resources/testdata', envLang, Project.Project, filename);
+        const fullPath = path.resolve(__dirname, '../resources/testdata', envLang, Project.Project, filename);
 
         if (!fs.existsSync(fullPath)) {
             throw new Error(`Test data not found: ${fullPath}`);

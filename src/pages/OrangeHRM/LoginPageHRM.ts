@@ -1,6 +1,6 @@
 import { Page } from '@playwright/test';
 import { GetLocator } from '@utils/GetLocator';
-import { orangeHrmUrl } from '@utils/EnvConfig';
+import { orangeHrmUrl } from '../../../env.config';
 import { ElementBase } from '@elements/ElementBase'
 
 export class LoginPageHRM extends ElementBase {
