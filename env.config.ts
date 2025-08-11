@@ -2,6 +2,7 @@ import * as dotenv from "dotenv";
 import fs from 'fs';
 dotenv.config();
 
+export const BASE_URL = process.env.BASE_URL
 console.log(process.env.BASE_URL);
 
 const envPath = require('path').resolve(__dirname, 'src/config/ConfigUrl.json');
@@ -13,6 +14,7 @@ export const orangeHrmUrl: string = env[currentEnv].orangeHrmUrl;
 export const testArchitectUrl: string = env[currentEnv].testArchitectUrl;
 export const apiUrl: string = env[currentEnv].apiUrl;
 export const playwrightUrl: string = env[currentEnv].playwrighttUrl;
+
 
 console.log('Current ENV:', currentEnv);
 
