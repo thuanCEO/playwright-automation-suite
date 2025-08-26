@@ -18,7 +18,7 @@ export default defineConfig({
   name: BrowserNameEnum.CHROMIUM,
   projects: [
     {
-      name: 'tests',
+      name: 'web',
       testDir: './src/tests/web',
       use: {
         headless: true,
@@ -31,7 +31,7 @@ export default defineConfig({
       },
     },
     {
-      name: 'tests',
+      name: 'api',
       testDir: './src/tests/api',
       use: {},
     }

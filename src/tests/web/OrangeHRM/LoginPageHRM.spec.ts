@@ -35,4 +35,12 @@ test.describe.parallel('@Smoke @LoginPageHRM', () => {
 
         await SaveScreenshot(page);
     });
+
+    test('Login Page in OrangeHRM', async ({ page }) => {
+        const userData = UserData.loadAndGetUser('LoginData.json', 'admin');
+        (await (await loginPageHRM.goto()).
+            loginPage(userData.username, userData.password))
+
+        await SaveScreenshot(page);
+    });
 });

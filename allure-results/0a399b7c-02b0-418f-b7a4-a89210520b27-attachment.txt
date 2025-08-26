@@ -1,0 +1,3 @@
+Found file at: C:\THUANDO46879\TRAINING\playwright-automation-suite\src\locators\OrangeHRM\LoginPageHRM.json
+Found file at: C:\THUANDO46879\TRAINING\playwright-automation-suite\src\locators\OrangeHRM\LoginPageHRM.json
+Found file at: C:\THUANDO46879\TRAINING\playwright-automation-suite\src\locators\OrangeHRM\LoginPageHRM.json

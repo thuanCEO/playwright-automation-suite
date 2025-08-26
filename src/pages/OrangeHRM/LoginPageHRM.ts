@@ -39,4 +39,8 @@ export class LoginPageHRM extends ElementBase {
         return this;
     }
 
+    async loginPage(userName: string, password: string) {
+        (await (await this.enterUserName(userName)).enterPassword(password)).clickButtonLogin
+        return this;
+    }
 }
